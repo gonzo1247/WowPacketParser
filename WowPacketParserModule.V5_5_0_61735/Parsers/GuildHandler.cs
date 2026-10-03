@@ -1044,7 +1044,6 @@ namespace WowPacketParserModule.V5_5_0_61735.Parsers
         [Parser(Opcode.SMSG_GUILD_EVENT_TAB_ADDED)]
         [Parser(Opcode.SMSG_GUILD_MEMBER_DAILY_RESET)]
         [Parser(Opcode.CMSG_GUILD_CHALLENGE_UPDATE_REQUEST)]
-        [Parser(Opcode.CMSG_GUILD_DECLINE_INVITATION)]
         [Parser(Opcode.CMSG_GUILD_DELETE)]
         [Parser(Opcode.CMSG_GUILD_EVENT_LOG_QUERY)]
         [Parser(Opcode.CMSG_GUILD_GET_ROSTER)]
