@@ -346,7 +346,6 @@ namespace WowPacketParser.Enums.Version.V5_5_4_68042
             { Opcode.CMSG_BATTLEMASTER_JOIN_SKIRMISH, 0x3400B7 },
             { Opcode.CMSG_BATTLEFIELD_PORT, 0x3400BC },
             { Opcode.CMSG_CLIENT_PORT_GRAVEYARD, 0x3400BE },
-            { Opcode.CMSG_SET_SELECTION, 0x3400BF },
             { Opcode.CMSG_INSPECT, 0x3400C0 },
             { Opcode.CMSG_REQUEST_CROWD_CONTROL_SPELL, 0x3400C1 },
             { Opcode.CMSG_BLACK_MARKET_OPEN, 0x3400C2 },
@@ -723,7 +722,7 @@ namespace WowPacketParser.Enums.Version.V5_5_4_68042
             { Opcode.CMSG_QUEST_GIVER_CHOOSE_REWARD, 0x3F0026 }, // verified on 5.5.4.70032
             { Opcode.CMSG_QUEST_GIVER_REQUEST_REWARD, 0x3F0027 }, // verified on 5.5.4.70032
             { Opcode.CMSG_QUEST_GIVER_STATUS_QUERY, 0x3F0028 }, // verified on 5.5.4.70032
-            { Opcode.CMSG_LOOT_UNIT, 0x3F00C1 }, // verified on 5.5.4.70032
+            { Opcode.CMSG_SET_SELECTION, 0x3F00C1 }, // verified on 5.5.4.70032
             { Opcode.CMSG_QUEST_POI_QUERY, 0x4400E3 }, // verified on 5.5.4.70032
             { Opcode.CMSG_PING, 0x450006 }, // verified on 5.5.4.70032
             { Opcode.CMSG_TIME_SYNC_RESPONSE, 0x42005C }, // verified on 5.5.4.70032
@@ -759,6 +758,7 @@ namespace WowPacketParser.Enums.Version.V5_5_4_68042
             { Opcode.CMSG_CANCEL_AURA, 0x3E0060 }, // verified on 5.5.4.70032
             { Opcode.CMSG_QUERY_QUEST_COMPLETION_NPCS, 0x3E0022 }, // verified on 5.5.4.70032
             { Opcode.CMSG_DESTROY_ITEM, 0x3E0157 }, // verified on 5.5.4.70032
+            { Opcode.CMSG_LOOT_UNIT, 0x3E00C6 }, // verified on 5.5.4.70032
             { Opcode.CMSG_LOOT_MONEY, 0x3E00C7 }, // verified on 5.5.4.70032
             { Opcode.CMSG_LOOT_ITEM, 0x3E00C8 }, // verified on 5.5.4.70032
             { Opcode.CMSG_LOOT_RELEASE, 0x3E00CA }, // verified on 5.5.4.70032
